@@ -1,0 +1,9 @@
+<form (ngSubmit)="addTodo()">
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Add New Task" [(ngModel)]="newTodo" name="newTodo" required>
+      <div class="input-group-append">
+        <button class="btn btn-primary" type="submit">Add</button>
+      </div>
+    </div>
+  </form>
+  

@@ -1,0 +1,5 @@
+<div class="container">
+  <h2 class="my-4">To-Do List</h2>
+  <app-todo-add (todoAdded)="handleTodoAdded($event)"></app-todo-add>
+  <app-todo-list [todos]="todos" (todoRemoved)="handleTodoRemoved($event)"></app-todo-list>
+</div>
